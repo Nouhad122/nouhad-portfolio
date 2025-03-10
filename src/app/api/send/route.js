@@ -19,18 +19,19 @@ export async function POST(req, res) {
   console.log(email, subject, message);
 
   try {
+    // Using HTML string instead of React components
     const data = await resend.emails.send({
       from: fromEmail,
       to: [fromEmail, email],
       subject: subject,
-      react: (
-        <>
-          <h1>{subject}</h1>
+      html: `
+        <div>
+          <h1>${subject}</h1>
           <p>Thank you for contacting us!</p>
           <p>New message submitted:</p>
-          <p>{message}</p>
-        </>
-      ),
+          <p>${message}</p>
+        </div>
+      `
     });
     return NextResponse.json(data);
   } catch (error) {
