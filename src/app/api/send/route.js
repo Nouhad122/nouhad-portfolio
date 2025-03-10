@@ -16,8 +16,7 @@ export async function POST(req, res) {
   }
 
   const { email, subject, message } = await req.json();
-  console.log(email, subject, message);
-
+  
   try {
     // Using HTML string instead of React components
     const data = await resend.emails.send({
@@ -25,11 +24,11 @@ export async function POST(req, res) {
       to: [fromEmail, email],
       subject: subject,
       html: `
-        <div>
-          <h1>${subject}</h1>
+        <div style="font-family: Arial, sans-serif; max-width: 600px;">
+          <h1 style="color: #333;">${subject}</h1>
           <p>Thank you for contacting us!</p>
           <p>New message submitted:</p>
-          <p>${message}</p>
+          <p style="background-color: #f5f5f5; padding: 12px; border-radius: 4px;">${message}</p>
         </div>
       `
     });
