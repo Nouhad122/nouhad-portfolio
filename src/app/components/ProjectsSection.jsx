@@ -12,7 +12,7 @@ const projectsData = [
      built using MERN Stack technologies that specializes in selling hijabs,
       abayas, and other related products. The platform features an integrated customer
        service chatbot designed to enhance the user's shopping experience.`,
-    image: "/images/projects/soulayma-boutique-project.png",
+    image: "/images/projects/Soulayma-boutique-project.png",
     tag: ["All", "Full Stack"],
     gitUrl: "https://github.com/Nouhad122/Soulayma-boutique",
     previewUrl: "/Under maintenance",
