@@ -35,9 +35,9 @@ const projectsData = [
      of custom-designed abayas and dresses. Through its dedicated online platform, the brand effectively
       displays its products to establish market presence and attract new customers.`,
     image: "/images/projects/Amara-project.png",
-    tag: ["All", "Frontend"],
+    tag: ["All", "Full Stack"],
     gitUrl: "https://github.com/Nouhad122/Amara-Haute-Couture",
-    previewUrl: "/Under maintenance",
+    previewUrl: "https://amara-haute-couture.vercel.app",
   },
   {
     id: 4,
