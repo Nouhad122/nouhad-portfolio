@@ -19,6 +19,17 @@ const projectsData = [
   },
   {
     id: 2,
+    title: "Fit Engineer",
+    description: `Fit Engineer is an online coaching platform for champion
+     Mostafa Karroum to manage clients and track their progress.
+      It is built using React.js, Node.js, Express.js, and MongoDB.`,
+    image: "/images/projects/Fit-Engineer-project.png",
+    tag: ["All", "Frontend"],
+    gitUrl: "https://github.com/Nouhad122/Fit-Engineer",
+    previewUrl: "https://fit-engineer.net/",
+  },
+  {
+    id: 3,
     title: "ClipCast Youtube Clone",
     description: `ClipCast is a YouTube clone application developed using React.js that replicates
      the YouTube user interface while implementing several of its core functionalities through
@@ -29,7 +40,7 @@ const projectsData = [
     previewUrl: "https://clip-cast-youtube-api.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Amara Haute Couture",
     description: `Amara Haute Couture is a premium fashion brand showcasing a distinctive collection
      of custom-designed abayas and dresses. Through its dedicated online platform, the brand effectively
@@ -40,7 +51,7 @@ const projectsData = [
     previewUrl: "https://amara-haute-couture.vercel.app",
   },
   {
-    id: 4,
+    id: 5,
     title: "BeastMode",
     description: `BeastMode is a fitness website that integrates with Rapid API to deliver a comprehensive platform
      featuring over 1,300 exercises, personalized training scheduling capabilities, macronutrient calculation
@@ -51,7 +62,7 @@ const projectsData = [
     previewUrl: "https://beast-mode-rouge.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Tic Tac Toe",
     description: `A multiplayer Tic-Tac-Toe application that enables real-time gameplay between users,
      featuring responsive design and session tracking to deliver a classic strategic experience.`,
@@ -61,7 +72,7 @@ const projectsData = [
     previewUrl: "https://tic-tac-toe-nu-ten-90.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "CRUD System",
     description: `A streamlined application enabling efficient data operations through an intuitive
      interface that allows users to create, view, modify, and remove records with comprehensive
@@ -70,7 +81,7 @@ const projectsData = [
     tag: ["All", "Frontend"],
     gitUrl: "https://github.com/Nouhad122/cruds",
     previewUrl: "https://cruds-chi.vercel.app/",
-  },
+  }
 ];
 
 const ProjectsSection = () => {
