@@ -11,7 +11,10 @@ const projectsData = [
     description: `Soulayma Boutique is a full-stack e-commerce website
      built using MERN Stack technologies that specializes in selling hijabs,
       abayas, and other related products. The platform features an integrated customer
-       service chatbot designed to enhance the user's shopping experience.`,
+       service chatbot designed to enhance the user's shopping experience.
+       Demo admin user:
+       email: demo@soulaymaboutique.com
+       password: demo123`,
     image: "/images/projects/Soulayma-boutique-project.png",
     tag: ["All", "Full Stack"],
     gitUrl: "https://github.com/Nouhad122/Soulayma-boutique",
