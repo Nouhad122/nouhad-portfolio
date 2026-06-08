@@ -15,7 +15,7 @@ const projectsData = [
     image: "/images/projects/Soulayma-boutique-project.png",
     tag: ["All", "Full Stack"],
     gitUrl: "https://github.com/Nouhad122/Soulayma-boutique",
-    previewUrl: "/Under maintenance",
+    previewUrl: "https://soulayma-boutique.vercel.app/",
   },
   {
     id: 2,
