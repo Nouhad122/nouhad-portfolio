@@ -23,7 +23,7 @@ const projectsData = [
     description: `Fit Engineer is an online coaching platform for champion
      Mostafa Karroum to manage clients and track their progress.
       It is built using React.js, Node.js, Express.js, and MongoDB.`,
-    image: "/images/projects/Fit-Engineer-project.png",
+    image: "/images/projects/fit-engineer-project.png",
     tag: ["All", "Frontend"],
     gitUrl: "https://github.com/Nouhad122/Fit-Engineer",
     previewUrl: "https://fit-engineer.net/",
