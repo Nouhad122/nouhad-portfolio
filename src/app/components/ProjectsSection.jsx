@@ -84,7 +84,20 @@ const projectsData = [
     tag: ["All", "Frontend"],
     gitUrl: "https://github.com/Nouhad122/cruds",
     previewUrl: "https://cruds-chi.vercel.app/",
-  }
+  },
+  {
+    id: 8,
+    title: "ElevateAI",
+    description: `ElevateAI is an AI-powered platform that helps users
+     optimize resumes and improve documents using
+      Google Gemini. Built with React, TypeScript,
+       and n8n, it automates ATS analysis, resume tailoring,
+        document correction, and PDF generation through intelligent workflows.`,
+    image: "/images/projects/elevate-ai-project.png",
+    tag: ["All", "AI Automation"],
+    gitUrl: "https://github.com/Nouhad122/ElevateAI",
+    previewUrl: "https://elevate-ai-kappa-five.vercel.app",
+  },
 ];
 
 const ProjectsSection = () => {
@@ -125,6 +138,11 @@ const ProjectsSection = () => {
           onClick={handleTagChange}
           name="Full Stack"
           isSelected={tag === "Full Stack"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="AI Automation"
+          isSelected={tag === "AI Automation"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
