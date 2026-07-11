@@ -98,6 +98,32 @@ const projectsData = [
     gitUrl: "https://github.com/Nouhad122/ElevateAI",
     previewUrl: "https://elevate-ai-kappa-five.vercel.app",
   },
+  {
+    id: 9,
+    title: "TicketPilot",
+    description: `TicketPilot is a modern customer support platform that streamlines ticket
+     management using AI-powered automation. Built with Next.js, Supabase, n8n, and Google Gemini,
+      it automates ticket classification, AI-assisted responses, agent assignment, and real-time
+       collaboration through an intuitive dashboard.`,
+    image: "/images/projects/TicketPilot-project.png",
+    tag: ["All", "AI Automation"],
+    gitUrl: "https://github.com/Nouhad122/TicketPilot",
+    previewUrl: "https://ticket-plot.vercel.app/",
+  },
+  {
+    id: 10,
+    title: "ScriptFlow",
+    description: `ScriptFlow is a multi-agent AI platform designed to automate the content
+     creation pipeline. It generates marketing ideas, scores them using the ICE framework,
+      enables human approval, creates production-ready scripts, performs AI-powered quality
+       reviews, and leverages semantic memory to avoid repetitive content. Built with React,
+        TypeScript, Node.js, Express, SQLite, and OpenRouter, ScriptFlow demonstrates scalable
+         AI orchestration with a clean modular architecture.`,
+    image: "/images/projects/ScriptFlow-project.png",
+    tag: ["All", "AI Automation"],
+    gitUrl: "https://github.com/Nouhad122/ScriptFlow/",
+    previewUrl: "https://script-flow-ebon.vercel.app/",
+  },
 ];
 
 const ProjectsSection = () => {
